@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function LogIn() {
 
@@ -13,7 +14,7 @@ function LogIn() {
         }
         else {
 
-            window.location.href="/Main"
+            <Link to={/Main}></Link>
             
         }
     }
