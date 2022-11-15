@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 function LogIn() {
 
+    
     const clickHandler = (e) => {
         const dataEmail = e.target.email.value;
         const dataPassword = e.target.password.value;
@@ -13,8 +14,7 @@ function LogIn() {
             alert("Please enter a valid name, email and password.")
         }
         else {
-
-            <Link to={/Main}></Link>
+            window.location.pathname="/Main"
             
         }
     }
