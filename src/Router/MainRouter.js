@@ -10,8 +10,9 @@ function MainRouter() {
         <BrowserRouter>
 
                 <Routes>
-                    <Route path='/' element={<LogIn></LogIn>}></Route>
-                        <Route path='/Main' element={<Main></Main>}></Route>
+                <Route path='/Main' element={<Main></Main>}></Route>
+                    <Route path='/LogIn' element={<LogIn></LogIn>}></Route>
+                        
                 </Routes>
 
         </BrowserRouter>
